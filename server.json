@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.makeitrunai/makeitrun-mcp",
+  "title": "MakeItRun",
+  "description": "Publish HTML pages, tools, and menus built in Claude or ChatGPT to a live URL with a QR code — no developer required.",
+  "repository": {
+    "url": "https://github.com/makeitrunai/makeitrun-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.makeitrun.ai/mcp"
+    }
+  ]
+}
